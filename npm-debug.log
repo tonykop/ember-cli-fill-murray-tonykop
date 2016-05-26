@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@2.15.0
+3 info using node@v0.12.13
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/home/dev/Codes/ember/test/come/ember-cli-fill-murray-tonykop',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package.tgz not in flight; packing
+10 verbose correctMkdir /home/dev/.npm correctMkdir not in flight; initializing
+11 verbose tar pack [ '/home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package.tgz',
+11 verbose tar pack   '/home/dev/Codes/ember/test/come/ember-cli-fill-murray-tonykop' ]
+12 verbose tarball /home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package.tgz
+13 verbose folder /home/dev/Codes/ember/test/come/ember-cli-fill-murray-tonykop
+14 info prepublish ember-cli-fill-murray-tonykop@0.1.0
+15 verbose addLocalTarball adding from inside cache /home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package.tgz
+16 verbose correctMkdir /home/dev/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd ember-cli-fill-murray-tonykop@0.1.0
+18 verbose afterAdd /home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package/package.json not in flight; writing
+19 verbose correctMkdir /home/dev/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package/package.json written
+21 silly publish { name: 'ember-cli-fill-murray-tonykop',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'The default blueprint for ember-cli addons.',
+21 silly publish   directories: { doc: 'doc', test: 'tests' },
+21 silly publish   scripts:
+21 silly publish    { build: 'ember build',
+21 silly publish      start: 'ember server',
+21 silly publish      test: 'ember try:testall' },
+21 silly publish   repository: '',
+21 silly publish   engines: { node: '>= 0.10.0' },
+21 silly publish   author: '',
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies:
+21 silly publish    { 'broccoli-asset-rev': '^2.1.2',
+21 silly publish      'ember-cli': '1.13.8',
+21 silly publish      'ember-cli-app-version': '0.5.0',
+21 silly publish      'ember-cli-content-security-policy': '0.4.0',
+21 silly publish      'ember-cli-dependency-checker': '^1.0.1',
+21 silly publish      'ember-cli-htmlbars': '0.7.9',
+21 silly publish      'ember-cli-htmlbars-inline-precompile': '^0.2.0',
+21 silly publish      'ember-cli-ic-ajax': '0.2.1',
+21 silly publish      'ember-cli-inject-live-reload': '^1.3.1',
+21 silly publish      'ember-cli-qunit': '^1.0.0',
+21 silly publish      'ember-cli-release': '0.2.3',
+21 silly publish      'ember-cli-sri': '^1.0.3',
+21 silly publish      'ember-cli-uglify': '^1.2.0',
+21 silly publish      'ember-data': '1.13.8',
+21 silly publish      'ember-disable-proxy-controllers': '^1.0.0',
+21 silly publish      'ember-export-application-global': '^1.0.3',
+21 silly publish      'ember-disable-prototype-extensions': '^1.0.0',
+21 silly publish      'ember-try': '0.0.6' },
+21 silly publish   keywords: [ 'ember-addon' ],
+21 silly publish   dependencies: { 'ember-cli-babel': '^5.1.3' },
+21 silly publish   'ember-addon': { configPath: 'tests/dummy/config' },
+21 silly publish   readme: '# Ember-cli-fill-murray\n\nThis README outlines the details of collaborating on this Ember addon.\n\n## Installation\n\n* `git clone` this repository\n* `npm install`\n* `bower install`\n\n## Running\n\n* `ember server`\n* Visit your app at http://localhost:4200.\n\n## Running Tests\n\n* `ember test`\n* `ember test --server`\n\n## Building\n\n* `ember build`\n\nFor more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'a3b587a78e15ff6877cb0380dad6ba8ea2a519bc',
+21 silly publish   _id: 'ember-cli-fill-murray-tonykop@0.1.0',
+21 silly publish   _shasum: 'e16064b6ebe65237da729db2793339ad7c788d6c',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name ember-cli-fill-murray-tonykop
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry http://registry.cnpmjs.org/
+26 silly mapToRegistry data { raw: 'ember-cli-fill-murray-tonykop',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'ember-cli-fill-murray-tonykop',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri http://registry.cnpmjs.org/ember-cli-fill-murray-tonykop
+28 verbose publish registryBase http://registry.cnpmjs.org/
+29 silly publish uploading /home/dev/.npm/ember-cli-fill-murray-tonykop/0.1.0/package.tgz
+30 verbose request uri http://registry.cnpmjs.org/ember-cli-fill-murray-tonykop
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 8:39:49 PM
+33 verbose request id 1e265fef57c3e79b
+34 http request PUT http://registry.cnpmjs.org/ember-cli-fill-murray-tonykop
+35 http 403 http://registry.cnpmjs.org/ember-cli-fill-murray-tonykop
+36 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+36 verbose headers   date: 'Thu, 26 May 2016 12:40:13 GMT',
+36 verbose headers   'content-type': 'application/json; charset=utf-8',
+36 verbose headers   'transfer-encoding': 'chunked',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-readtime': '26',
+36 verbose headers   'content-encoding': 'gzip' }
+37 verbose request invalidating /home/dev/.npm/registry.cnpmjs.org/ember-cli-fill-murray-tonykop on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: no_perms can't publish non-scoped package, please set `config.scopes`: ember-cli-fill-murray-tonykop
+39 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+39 verbose stack     at /usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:7
+39 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+39 verbose stack     at Gunzip.emit (events.js:129:20)
+39 verbose stack     at _stream_readable.js:908:16
+39 verbose stack     at process._tickCallback (node.js:355:11)
+40 verbose statusCode 403
+41 verbose pkgid ember-cli-fill-murray-tonykop
+42 verbose cwd /home/dev/Codes/ember/test/come/ember-cli-fill-murray-tonykop
+43 error Linux 3.16.0-67-generic
+44 error argv "/usr/bin/node" "/usr/bin/npm" "publish"
+45 error node v0.12.13
+46 error npm  v2.15.0
+47 error code E403
+48 error no_perms can't publish non-scoped package, please set `config.scopes`: ember-cli-fill-murray-tonykop
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
